@@ -23,7 +23,7 @@ module.exports = (db, { auth, cookie, cors }) => {
   // (like on Heroku)
   // or if you're encountering the error message:
   // "Unable to verify authorization request state"
-  app.set('trust proxy', 1);
+  app.enable('trust proxy');
 
 
   const router = authAPI(
@@ -34,6 +34,7 @@ module.exports = (db, { auth, cookie, cors }) => {
       redirectURL: auth.redirectURL,
       secure: cookie.secure,
       domain: cookie.domain,
+      path: cookie.path,
     }
   );
 

@@ -19,6 +19,8 @@ module.exports = {
       secure: false,
       secret: 'secret',
       domain: '.esice.local',
+      path: '/',
+      proxy: false,
     },
   },
   database: {

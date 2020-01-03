@@ -13,12 +13,14 @@ module.exports = {
       clientId: '',
       clientSecret: '',
       callbackURL: 'https://auth.esice.co/v1/callback',
-      redirectURL: 'https://esice.co',
+      redirectURL: 'https://app.esice.co',
     },
     cookie: {
       secure: true,
       secret: '',
-      domain: '.esice.com',
+      domain: '.esice.co',
+      proxy: true,
+      path: '/',
     },
   },
   database: {
