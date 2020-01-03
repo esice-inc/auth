@@ -12,10 +12,11 @@ module.exports = {
       clientId: '',
       clientSecret: '',
       callbackURL: 'https://esice-auth-staging.heroku.com/v1/callback',
+      redirectURL: '',
     },
     cookie: {
       secure: true,
-      secret: 'LasCosasSonBizarras',
+      secret: '',
     },
   },
   database: {
