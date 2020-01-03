@@ -1,5 +1,6 @@
 module.exports = {
   api: {
+    port: 'PORT',
     auth: {
       domain: 'API_AUTH_DOMAIN',
       clientId: 'API_AUTH_CLIENT_ID',
