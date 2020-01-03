@@ -6,7 +6,7 @@ module.exports = {
       ],
       credentials: true,
     },
-    port: 80,
+    port: 3000,
     auth: {
       domain: '',
       scope: 'openid email profile',
